@@ -1,0 +1,12 @@
+{
+  "searchQuery": "Prague",
+  "checkInDate": "2024-09-01",
+  "checkOutDate": "2024-09-02",
+  "numberOfAdults": 2,
+  "numberOfChildren": 0,
+  "currencyCode": "EUR",
+  "maxResults": 5,
+  "proxyConfig": {
+    "useApifyProxy": true
+  }
+}
