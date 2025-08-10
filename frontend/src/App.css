@@ -1,0 +1,60 @@
+.app {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.message-list {
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 300px;
+  overflow-y: scroll; /* Add scrollbar if messages overflow */
+}
+
+.message {
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.sent {
+  background-color: #DCF8C6;
+  align-self: flex-end; /* Align to the right */
+}
+
+.received {
+  background-color: #fff;
+  align-self: flex-start; /* Align to the left */
+}
+
+.timestamp {
+  font-size: 0.8em;
+  color: #999;
+  margin-left: 5px;
+}
+
+.input-area {
+  display: flex;
+  margin-top: 10px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-area button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
